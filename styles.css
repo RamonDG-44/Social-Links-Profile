@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Outfit&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: hsl(0, 0%, 8%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    font-family: "inter";
+}
+
+.card{
+    margin-bottom: 40px;
+    max-width: 40%;
+    height: 60%;
+    padding: 20px;
+    background-color: hsl(0, 0%, 12%);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 10px;
+}
+
+
+h1, p {
+    color: hsl(0, 0%, 100%);
+}
+
+h1 {
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 2px;
+    margin-top: 5px;
+}
+
+#find {
+    margin: 20px 0 10px 0;
+    font-size: 10px;
+    font-weight: 200;
+}
+
+#verde {
+    color: hsl(75, 94%, 57%);
+    font-size: 10px;
+}
+
+.card img{
+    border-radius: 50%;
+    width: 60px;
+    margin-top: 10px;
+}
+
+button {
+    background-color: hsl(0, 0%, 20%);
+    color: hsl(0, 0%, 100%);
+    border: none;
+    cursor: pointer;
+    padding: 0 20px;
+    margin: 5px;
+    font-size: 12px;
+    text-align: center;
+    border-radius: 5px;
+    flex: 1 1 auto; 
+    width: 200px;
+    max-width: 90%;
+    height: auto;
+}
+
+#ultbtn {
+    margin-bottom: 20px;
+}
+
+button:hover {
+    background-color: hsl(75, 94%, 57%);
+    color: black;
+}
